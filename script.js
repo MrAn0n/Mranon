@@ -148,7 +148,7 @@ if (updatesTrack) {
         {
             version: "V1.0.1",
             title: "UPDATE SYSTEM",
-            description: "see what net in site",
+            description: "see what new in site",
             date: "~~~"
         },
         {
