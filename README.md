@@ -31,9 +31,6 @@ const BURTON = {
 
     interests: [
         "Programming",
-        "Cyber Security",
-        "Linux",
-        "Networking",
         "Web Development"
     ],
 
@@ -61,17 +58,6 @@ const BURTON = {
 
 </div>
 
-## `03` — GITHUB STATISTICS
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MRAN0N&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=999999&icon_color=FFFFFF" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MRAN0N&layout=compact&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=999999" />
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MRAN0N&theme=transparent&hide_border=true&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" />
 
 </div>
 
