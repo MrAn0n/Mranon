@@ -2,7 +2,7 @@
 <div align="center">
 
 <!-- BANNER -->
-<img src="YOUR_BANNER_URL_HERE" width="100%" />
+<img src="[YOUR_BANNER_URL_HERE](https://uploadkon.ir/uploads/eae516_26Burton-Cyber-Developer-Command-Center.png)" width="100%" />
 
 <br><br>
 
