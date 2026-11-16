@@ -25,9 +25,6 @@ const BURTON = {
     location: "Earth",
     interests: [
         "Programming",
-        "Cyber Security",
-        "Linux",
-        "Networking",
         "Web Development"
     ],
     currentlyWorkingOn: [
@@ -52,14 +49,7 @@ const BURTON = {
 
 </div>
 
-## `03` — PROJECTS
 
-| PROJECT | DESCRIPTION | STATUS |
-|:---|:---|:---|
-| BURTON Website | Personal Portfolio | In Development |
-| VEX Launcher | Windows Game Launcher | In Development |
-| VEX LAN | Private Network Project | In Development |
-| [Your Project] | Your Description | Coming Soon |
 
 ## `04` — GITHUB STATISTICS
 
