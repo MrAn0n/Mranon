@@ -2,7 +2,7 @@
 <div align="center">
 
 # BURTON
-### `Developer • Programmer • Tech Enthusiast`
+### `Developer • Programmer `
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub;Building+something+different;Code.+Create.+Innovate." />
 
