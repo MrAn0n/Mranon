@@ -179,7 +179,7 @@ const musicCoverStatus = document.getElementById("musicCoverStatus");
 
 const playlist = [
     {
-        title: "GRAND THEF AOTU V",
+        title: "GRAND THEFT AOTU V",
         artist: "GAME MUSIC",
         src: "assets/musics/music1.wav"
     },
