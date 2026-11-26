@@ -1,0 +1,83 @@
+<!-- finglish : copy az file ha HARAM ast. -->
+<!-- BURTON Website. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080808">
+    <title>BURTON — Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <div class="gallery-page">
+        <header class="gallery-nav">
+            <a class="gallery-brand" href="index.html">BURTON<span>.</span></a>
+            <div class="gallery-nav-right">
+                <span class="gallery-status"><i></i> MEDIA ARCHIVE</span>
+                <a class="back-link" href="index.html">BACK TO WEBSITE <span>↗</span></a>
+            </div>
+        </header>
+
+        <main>
+            <section class="gallery-hero">
+                <div class="eyebrow"><span></span> BURTON / VISUAL ARCHIVE</div>
+                <div class="hero-row">
+                    <div>
+                        <h1>THE <span>GALLERY.</span></h1>
+                        <p>A collection of moments, frames and visual experiments.</p>
+                    </div>
+                    <div class="hero-index">
+                        <strong id="totalCount">00</strong>
+                        <span>MEDIA ITEMS</span>
+                    </div>
+                </div>
+                <div class="hero-rule"></div>
+            </section>
+
+            <section class="gallery-toolbar" aria-label="Gallery controls">
+                <div class="filter-list" role="group" aria-label="Filter media">
+                    <button class="filter-btn active" data-filter="all" type="button">ALL <span id="allCount">00</span></button>
+                    <button class="filter-btn" data-filter="image" type="button">PHOTOS <span id="photoCount">00</span></button>
+                    <button class="filter-btn" data-filter="video" type="button">VIDEOS <span id="videoCount">00</span></button>
+                </div>
+                <label class="search-box">
+                    <span aria-hidden="true">⌕</span>
+                    <input id="gallerySearch" type="search" placeholder="SEARCH MEDIA..." autocomplete="off">
+                    <kbd>/</kbd>
+                </label>
+            </section>
+
+            <section class="gallery-grid" id="galleryGrid" aria-live="polite"></section>
+
+            <div class="empty-state" id="emptyState" hidden>
+                <span>NO RESULTS FOUND</span>
+                <p>Try another search or choose a different category.</p>
+            </div>
+
+            <footer class="gallery-footer">
+                <span>BURTON © <span id="year"></span></span>
+                <span>END OF ARCHIVE — <span id="footerCount">00</span> ITEMS</span>
+            </footer>
+        </main>
+    </div>
+
+    <!-- MEDIA VIEWER -->
+    <div class="media-viewer" id="mediaViewer" aria-hidden="true">
+        <button class="viewer-close" id="viewerClose" type="button" aria-label="Close viewer">×</button>
+        <button class="viewer-nav viewer-prev" id="viewerPrev" type="button" aria-label="Previous media">←</button>
+        <div class="viewer-content" id="viewerContent"></div>
+        <button class="viewer-nav viewer-next" id="viewerNext" type="button" aria-label="Next media">→</button>
+        <div class="viewer-caption">
+            <span id="viewerType">PHOTO</span>
+            <strong id="viewerTitle"></strong>
+            <small id="viewerPosition"></small>
+        </div>
+    </div>
+
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>
